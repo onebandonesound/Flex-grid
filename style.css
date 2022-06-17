@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@400&display=swap');
+body{
+    background: hsl(0, 0%, 95%);
+    font-size: 15px;
+}
+h6{
+    font-family: 'Big Shoulders Display';
+    font-size:40px;
+    color: hsl(0, 0%, 95%);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+main{
+    font-family: 'Lexend Deca';
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+div{
+    width: 210px;
+    height: 400px;
+    padding: 2em;
+}
+.orange{
+    background-color: hsl(31, 77%, 52%);
+    float: left;
+}
+.cyan{
+    background-color: hsl(184, 100%, 22%);
+    float: left;
+ }
+.vdcyan{
+    background-color: hsl(179, 100%, 13%);
+    float: left;
+}
+.orange button{
+    color: hsl(31, 77%, 52%);
+}
+.cyan button{
+    color: hsl(184, 100%, 22%);
+}
+.vdcyan button{
+    color: hsl(179, 100%, 13%);
+}
+button{
+    border-radius: 2rem;
+    border: 2px solid hsl(0, 0%, 95%);
+    padding: 0.8em;
+    width: 65%;
+    margin-top: 6em;
+}
+button:hover{
+    background-color: transparent;
+    cursor: pointer;
+    color:hsl(0, 0%, 95%);
+}
+.gridlink{
+    position: absolute;
+    top: 5px;
+    right: 2rem;
+    background-color: rgb(52, 129, 160);
+    border-radius: 50%;
+    padding: 0.8em;
+    width: 6rem;
+}
+.gridlink:hover{
+    background-color: rgb(18, 95, 69);
+    cursor: pointer;    
+    color: aliceblue;
+}
+
+@media (max-width: 375px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+}
