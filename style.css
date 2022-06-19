@@ -3,6 +3,12 @@ body{
     background: hsl(0, 0%, 95%);
     font-size: 15px;
 }
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 17px;
+
+}
 h6{
     font-family: 'Big Shoulders Display';
     font-size:40px;
@@ -57,24 +63,32 @@ button:hover{
     color:hsl(0, 0%, 95%);
 }
 .gridlink{
-    position: absolute;
-    top: 5px;
-    right: 2rem;
-    background-color: rgb(52, 129, 160);
-    border-radius: 50%;
-    padding: 0.8em;
-    width: 6rem;
+    background-color: rgb(92, 25, 25);
+    border-radius: 40%;
+    padding: .4em;
+    width: 9rem;
+    color:rgb(6, 138, 143);
+    font-size: xx-large;
+    margin-top: 0em;
 }
 .gridlink:hover{
     background-color: rgb(18, 95, 69);
     cursor: pointer;    
     color: aliceblue;
 }
-
 @media (max-width: 375px) {
     main {
         display: flex;
         flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+}
+@media (max-width: 764px) {
+    main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         height: auto;
         width: 100%;
     }

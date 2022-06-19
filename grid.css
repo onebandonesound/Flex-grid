@@ -1,6 +1,11 @@
 .bgrnd{
     background-color:dimgray;   
 }
+header{
+    display: flex;
+    padding: 17px;
+    justify-content: space-around;
+}
 .grid{
     height: 100vh;
     display:grid;
@@ -37,14 +42,24 @@
     grid-row: 4/5;
 }
 .index{
-    position: absolute;
-    top: 5px;
-    right: 2rem;
-    background-color:orangered;
-    border-radius: 50%;
-    padding: 0.8em;
-    width: 6rem;
+    background-color:gold;
+    border-radius: 40%;
+    padding: .4em;
+    width: 9rem;
+    color:rgb(6, 138, 143);
+    font-size: xx-large;
 }
 .index:hover{
     background-color: rgb(18, 95, 69);
     cursor: pointer;
+    color: aliceblue;
+}
+@media (max-width: 500px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: auto;
+        width: 90%;
+    }
+}
