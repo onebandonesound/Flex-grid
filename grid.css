@@ -41,14 +41,14 @@ header{
     grid-column: 4/7;
     grid-row: 4/5;
 }
-.index{
+.index{#
     background-color:gold;
     border-radius: 40%;
     padding: .4em;
     width: 9rem;
     color:rgb(6, 138, 143);
     font-size: xx-large;
-}
+}#
 .index:hover{
     background-color: rgb(18, 95, 69);
     cursor: pointer;
